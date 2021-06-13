@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Format Converter App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+</head>
+<body>
+    
+    
+    <header>
+        <div class ="container">
+            <h1 style = "text-align : center;">Video Converter App</h1>       
+                <input type="button" value = "New Project">
+                <label for="folder"></label>
+                <select class = " form-control" id="folder">
+                    <option>
+                        empty folder
+                    </option>
+                </select>
+            </input>
+            <div class = "form-group">
+                <label for ="format">Select Format:</label>
+                    <select class ="form-control" id ="format">
+                        <option>
+                            mp4
+                        </option>
+
+                    </select>
+            </div>
+            <br>
+
+            <button id="upload" class = " btn btn-block btn-danger">
+                Select File and Convert
+            </button>   
+            <div id ="info"></div>
+        
+        
+        
+        </div>
+        
+    </header>
+   
+</body>
+<script src= "renderer.js"></script>
+</html>

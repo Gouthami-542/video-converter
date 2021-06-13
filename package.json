@@ -1,0 +1,15 @@
+{
+  "name": "video-converter-app",
+  "version": "1.0.0",
+  "description": "project of videoconverter_application",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "gouthami",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.1.2"
+  }
+}
